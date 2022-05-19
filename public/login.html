@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <picture>
+            <source
+              srcset="assets/images/logo_2x.png"
+              media="(min-width: 600px)"
+            />
+            <img src="assets/images/logo.png" alt="Logo" class="logoImg" />
+          </picture>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="products.html">Products</a></li>
+          </ul>
+        </nav>
+        <div>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="login.html">SignIn</a></li>
+            <li class="nav-item"><a href="register.html">Register</a></li>
+          </ul>
+          <div>
+            <span>0 Item</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="sign_up" class="container">
+        <div>
+          <h1>Sign Up</h1>
+          <h2>Sign Up</h2>
+          <p>We do not share personal details to any one</p>
+        </div>
+        <div>
+          <form novalidate id="login-form">
+            <!-- <div class="form-error">Email already Exist</div> -->
+            <div class="form-field">
+              <div class="form-field__control">
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  autocomplete="email"
+                  class="form-field__input"
+                  placeholder=" "
+                />
+                <label for="email" class="form-field__label">Email</label>
+                <div class="form-field__bar"></div>
+              </div>
+            </div>
+            <div class="form-field">
+              <div class="form-field__control">
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  autocomplete="new-password"
+                  class="form-field__input"
+                  placeholder=" "
+                />
+                <label for="password" class="form-field__label">Password</label>
+                <div class="form-field__bar"></div>
+              </div>
+            </div>
+            <button type="submit" class="btn" style="background: #bc2352;">Login</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

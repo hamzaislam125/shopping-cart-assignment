@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div style="background-color: red; height: 100vh; width: 50vw"></div> -->
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <picture>
+            <source
+              srcset="assets/images/logo_2x.png"
+              media="(min-width: 600px)"
+            />
+            <img src="assets/images/logo.png" alt="Logo" class="logoImg" />
+          </picture>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="products.html">Product</a></li>
+          </ul>
+        </nav>
+        <div>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="login.html">SignIn</a></li>
+            <li class="nav-item"><a href="register.html">Register</a></li>
+          </ul>
+          <div>
+            <span><a id="myBtn"> <picture>
+              <svg width="25" height="25">
+              <image xlink:href="assets/images/cart.svg" alt="cart" class="cart-image" width="25" height="25"/>
+            </svg>
+            </picture></a><span id="number-item"></span> Item</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="list-category"></section>
+    </main>
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        
+        <span class="close" id="spanclose">&times;</span>
+      
+        <div id="row-container">
+ 
+        </div>
+        <button style="background:#bc2352;padding: 0.75rem 0;
+        font-size: 1.2rem;
+        width: 100%;
+        border: 0px;
+       color: #fff;
+       margin-top: 10px;">Proceed to pay</button>
+      </div>
+
+    </div>
+  </body>
+</html>

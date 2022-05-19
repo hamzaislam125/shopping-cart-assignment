@@ -1,0 +1,21 @@
+@use "base";
+
+header {
+  padding: 1rem 0;
+  background-color: #fff;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+  > .wrapper {
+    display: flex;
+    align-items: center;
+    @extend .container;
+    .logoImg {
+      height: 3rem;
+    }
+
+    nav {
+      flex: 1;
+      padding: 0 2rem;
+    }
+  }
+}

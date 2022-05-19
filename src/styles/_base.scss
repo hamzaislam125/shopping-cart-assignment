@@ -1,0 +1,21 @@
+@use "theme";
+
+body {
+  color: theme.$font-color;
+  font-family: "poppinsregular", sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+ul.nav-list {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  li.nav-item {
+    list-style-type: none;
+  }
+}

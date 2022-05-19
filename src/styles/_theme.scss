@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "poppinsregular";
+  src: url("../../assets/fonts/poppins-regular-webfont.woff2") format("woff2"),
+    url("../../assets/fonts/poppins-regular-webfont.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "poppinsbold";
+  src: url("../../assets/fonts/poppins-bold-webfont.woff2") format("woff2"),
+    url("../../assets/fonts/poppins-bold-webfont.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "poppinsextralight";
+  src: url("../../assets/fonts/poppins-extralight-webfont.woff2")
+      format("woff2"),
+    url("../../assets/fonts/poppins-extralight-webfont.woff") format("woff");
+  font-weight: 200;
+}
+
+$primary-color: dodgerblue;
+$error-color: red;
+$font-color: #1a1a1a;
+$animation-duration: 0.4ms;

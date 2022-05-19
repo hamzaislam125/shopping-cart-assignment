@@ -1,0 +1,13 @@
+@use "header";
+@use "swiper";
+@use "category";
+.cart-image{
+    filter:invert(20%) sepia(95%) saturate(3318%) hue-rotate(330deg) brightness(78%) contrast(86%);
+  }
+  .btn-class{
+    background: #bc2352;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+  

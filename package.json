@@ -1,15 +1,42 @@
 {
-  "name": "code-exercise",
+  "name": "sapient_htmlcssjavascript",
   "version": "1.0.0",
-  "description": "This is a shopping cart coding exercise",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "canned -p 5000 ./server"
+    "build": "webpack",
+    "start": "webpack serve",
+    "start:server": "json-server db.json -m ./node_modules/json-server-auth --port 3000"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imyagnesh/sapient_htmlCssJavascript.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imyagnesh/sapient_htmlCssJavascript/issues"
+  },
+  "homepage": "https://github.com/imyagnesh/sapient_htmlCssJavascript#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "json-server": "^0.17.0",
+    "json-server-auth": "^2.1.0",
+    "postcss-loader": "^6.2.1",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
   "dependencies": {
-    "canned": "^0.3.12"
+    "axios": "^0.27.2",
+    "yup": "^0.32.11"
   }
 }

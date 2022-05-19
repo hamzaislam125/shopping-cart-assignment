@@ -1,0 +1,32 @@
+// :root {
+//   --primary-color: #e7e7e7
+// }
+
+@use "base";
+@use "theme";
+@use "sass:math";
+@use "form";
+@use "header";
+
+main {
+  section#sign_up {
+    display: flex;
+    padding: 2rem 0;
+
+    div {
+      flex: 1;
+    }
+
+    h1 {
+      font-family: "poppinsbold", sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-family: "poppinsextralight", sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+}

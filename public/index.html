@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <picture>
+            <source
+              srcset="assets/images/logo_2x.png"
+              media="(min-width: 600px)"
+            />
+            <img src="assets/images/logo.png" alt="Logo" class="logoImg" />
+          </picture>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item"><a href="products.html">Products</a></li>
+          </ul>
+        </nav>
+        <div>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="login.html">SignIn</a></li>
+            <li class="nav-item"><a href="register.html">Register</a></li>
+          </ul>
+          <div>
+            <span><picture>
+              <svg width="25" height="25">
+              <image xlink:href="assets/images/cart.svg" alt="cart" class="cart-image" width="25" height="25"/>
+            </svg>
+            </picture><span id="number-item"></span> Item</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="carousel" id="banner"></section>
+
+      <section id="category" class="category"></section>
+    </main>
+  </body>
+</html>
